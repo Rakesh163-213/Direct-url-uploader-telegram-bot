@@ -31,7 +31,7 @@ async def delete_after_delay(msg, delay):
     except:
         pass
 # Bot credentials
-API_ID = int(os.getenv(API_ID)  # Replace with your actual API ID
+API_ID = int(os.getenv(API_ID))  # Replace with your actual API ID
 API_HASH = os.getenv(API_HASH)
 BOT_TOKEN = os.getenv(BOT_TOKEN)
 
